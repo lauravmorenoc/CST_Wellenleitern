@@ -1,0 +1,211 @@
+19/Dec/2023 13:07:30  *** Warning ***
+                      
+                      This software is licensed for educational purposes only.
+                      
+                      ------------------------------------------------------------------------------
+19/Dec/2023 13:07:44  *** Warning ***
+                      
+                      This software is licensed for educational purposes only.
+                      
+                      ------------------------------------------------------------------------------
+19/Dec/2023 13:58:43
+                      Solver started at: 01:58 PM Tuesday, 19. December 2023 (CET)
+
+                        Module:  Time Domain: S-Parameter (Linux 64)
+                        Version: 2023.5 Release from 2023-06-08 (change 1121531)
+
+
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 13:58:43  ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+
+                      Stimulation at port 1 (mode 1)
+
+
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 13:58:43  Units settings:
+
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 13:58:43  The dispersive material update [Automatic] will be performed using the "Standard" update schema
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 13:59:59  Mesh statistics:
+
+                         Hexahedral mesh type: Perfect Boundary Approximation (PBA)
+                            Version: default
+
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 4
+                            Number of calculation domains used: 16
+
+                         Used point accuracy enhancement value: 0.00%.
+                         Acceleration mode: CPU
+                         PBA fill limit: 85.00% (inverse)
+
+19/Dec/2023 14:00:07  Using Generalized port mode solver.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:08  Boundary conditions:
+
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+
+                        Xmin: expanded open, 4 Layer, depth 0.749481 mm
+                        Xmax: expanded open, 4 Layer, depth 0.749481 mm
+
+                        Ymin: expanded open, 4 Layer, depth 0.749481 mm
+                        Ymax: expanded open, 4 Layer, depth 0.749481 mm
+
+                        Zmin: expanded open, 4 Layer, depth 0.757836 mm
+                        Zmax: expanded open, 4 Layer, depth 0.757836 mm
+
+                        PML-Type: Convolution PML
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:08  Frequency settings:
+
+                        Fmin:         70
+                        Fmax:         90
+                        Nfsteps(lin): 1001
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:08  Field update statistics:
+
+                        Number of components in total: 	20214178
+                        Number of TST and special elements:	14632
+
+                      Subcycling state:      			Automatically deactivated
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:08  Waveguide boundaries:
+
+19/Dec/2023 14:00:08  Port: 1
+
+19/Dec/2023 14:00:09    -------------------------------- F-Calc 80 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        1      1      HYBRID      236           1.09e-006     ---           ---
+                        1      2      HYBRID      236           1.37e-006     ---           ---
+                        ----------------------------------------------------------------------------
+
+19/Dec/2023 14:00:10  Port: 2
+
+19/Dec/2023 14:00:11    -------------------------------- F-Calc 80 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        2      1      HYBRID      236           2.50e-007     ---           ---
+                        2      2      HYBRID      236           5.01e-007     ---           ---
+                        ----------------------------------------------------------------------------
+
+19/Dec/2023 14:00:11  *** Warning ***
+
+19/Dec/2023 14:00:11  The first mode at inhomogeneous port 1 is hybrid. This could lead to an inaccurate energy balance. Please check your
+                      structure. More...
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:11  *** Warning ***
+
+19/Dec/2023 14:00:11  The first mode at inhomogeneous port 2 is hybrid. This could lead to an inaccurate energy balance. Please check your
+                      structure. More...
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:11    Using first order filter.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:11    Using first order filter.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:11    Using first order filter.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:11    Using first order filter.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:12  Using standard absorber for unconsidered modes at port 1.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:12    Using first order filter.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:12    Using first order filter.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:12    Using first order filter.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:12    Using first order filter.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:00:12  Using standard absorber for unconsidered modes at port 2.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:04:19
+                      --------------------------------------------------------------------------------
+19/Dec/2023 14:04:19  Steady state energy criterion met, solver finished successfully.
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:04:19  Frequency domain results normalized to default signal.
+
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:04:19
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB)
+                                                                          At begin     Minimum
+                        ----------------------------------------------------------------------------
+                        Matrices calc.      543164                        46904296     46370117
+                        Solver run total    1339816                       47014628     45657220
+                        ----------------------------------------------------------------------------
+
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+
+                        Hardware:
+                           Computer name:                 	noded.hfs.rub.de
+
+                           Number of CPU threads:               4
+                           Hardware info:                  	Hardware Accelerator Device not activated
+
+                        Number of mesh cells:             	3318417
+                        Excitation duration:              	3.55454875e-001 ns
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	3.58648
+                        Steady state accuracy limit:      	-40	dB
+                        Simulated number of time steps:   	4602
+                        Maximum number of time steps:     	25663
+                        Time step width:
+                           without subcycles:             	2.770167423e-004 ns
+                           used:                          	2.770167423e-004 ns
+
+                        Matrix calculation time:          	76 	s
+                        Solver setup time:                	12 	s
+                        Solver loop time:                 	245 	s
+                        Solver post-processing time:      	1 	s
+                                                          	------------
+                        Total solver time:                	334 	s  ( = 0 h, 5 m, 34 s )
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:04:19
+                        Adaptive port meshing time:          	14     	s
+                        Total solver time (all cycles):      	334    	s  ( = 0 h, 5 m, 34 s )
+                        Solver initialization and clean-up:  	2      	s
+                                                             	------------
+                        Total simulation time:               	350    	s  ( = 0 h, 5 m, 50 s )
+
+                      ------------------------------------------------------------------------------
+19/Dec/2023 14:04:19  Solver finished at: 02:04 PM Tuesday, 19. December 2023
+
+
+
+                      ------------------------------------------------------------------------------
+
+
+
+

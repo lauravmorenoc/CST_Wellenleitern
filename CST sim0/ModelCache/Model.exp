@@ -1,0 +1,13 @@
+@CACHEFILEVERSION 2
+@DOUBLE
+-dwg_w/2#
+-0.9
+dair_l+2#*dwg_l
+100.5
+dwg_l
+50
+dwg_l+dair_l
+50.5
+dwg_w/2#
+0.9
+@LONG

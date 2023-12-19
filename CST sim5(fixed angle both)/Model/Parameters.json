@@ -1,0 +1,39 @@
+{
+    "parameters": [
+        {
+            "descr": "Breite",
+            "expr": "1.8",
+            "name": "dwg_w",
+            "value": "1.8"
+        },
+        {
+            "descr": "Lange",
+            "expr": "50",
+            "name": "dwg_l",
+            "value": "50"
+        },
+        {
+            "descr": "Luftspalt",
+            "expr": "0.5",
+            "name": "dair_l",
+            "value": "0.5"
+        },
+        {
+            "descr": "inc angle",
+            "expr": "alpha_deg*pi/180",
+            "name": "alpha",
+            "value": "0.872664625997165"
+        },
+        {
+            "expr": "50",
+            "name": "alpha_deg",
+            "value": "50"
+        },
+        {
+            "expr": "dwg_w/tan(alpha)",
+            "name": "dy1",
+            "value": "1.5103793361191"
+        }
+    ],
+    "version": 1
+}

@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2023.0 - Sep 12 2022 - ACIS 32.0.1 -
+[Author]
+dasa
+[Mesh Cells]
+1,296,149
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:cst sim2.cst?d6b9a899a3128371ddd09a7b60a44049?27842:numberofparameters=5:port=1>mode=1>zre=0>zim=0?port=1>mode=2>zre=0>zim=0?port=2>mode=1>zre=0>zim=0?port=2>mode=2>zre=0>zim=0:::alpha?alpha_deg?dair_l?dwg_l?dwg_w
+[Comment]

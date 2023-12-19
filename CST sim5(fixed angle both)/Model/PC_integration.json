@@ -1,0 +1,29 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "dwg_w",
+         "type": "float",
+         "value": 1.8
+      },
+      {
+         "name": "dwg_l",
+         "type": "float",
+         "value": 50.0
+      },
+      {
+         "name": "dair_l",
+         "type": "float",
+         "value": 0.5
+      },
+      {
+         "name": "alpha_deg",
+         "type": "float",
+         "value": 50.0
+      }
+   ],
+   "outputVariables": []
+}

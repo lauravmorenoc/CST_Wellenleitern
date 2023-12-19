@@ -1,0 +1,20 @@
+{
+    "parameters": [
+        {
+            "expr": "1.8",
+            "name": "dwg_w",
+            "value": "1.8"
+        },
+        {
+            "expr": "50",
+            "name": "dwg_l",
+            "value": "50"
+        },
+        {
+            "expr": "0.5",
+            "name": "dair_l",
+            "value": "0.5"
+        }
+    ],
+    "version": 1
+}

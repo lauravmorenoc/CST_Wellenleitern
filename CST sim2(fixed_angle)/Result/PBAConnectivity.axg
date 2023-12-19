@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928">
+  <Objects>
+    <Object name="Components\component1:air_gap" id="1"/>
+    <Object name="Components\component1:aux_solid" id="2"/>
+    <Object name="Components\component1:solid3" id="3"/>
+    <Object name="Components\component2:solid4" id="4"/>
+  </Objects>
+  <Materials/>
+  <Groups>
+    <Group name="Isolators" type="Isolator" ID="1">
+      <Item name="Components\component1:air_gap" type="solid" id="1"/>
+      <Item name="Components\component1:aux_solid" type="solid" id="2"/>
+      <Item name="Components\component1:solid3" type="solid" id="3"/>
+      <Item name="Components\component2:solid4" type="solid" id="4"/>
+    </Group>
+  </Groups>
+</CSTAuxiliaryGeometry>
